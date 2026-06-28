@@ -1,0 +1,5 @@
+{
+  "name": "spongebot",
+  "version": "1.0.0",
+  "description": "스폰지봇 — 폰 텔레그램으로 PC Claude Code를 조작하게 연결하고, 설정 완료 시 바탕화면에 아이콘 버튼을 자동 생성하는 대화형 설치 도우미."
+}

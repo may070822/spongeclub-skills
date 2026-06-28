@@ -1,0 +1,15 @@
+{
+  "name": "spongeclub-skills",
+  "owner": { "name": "may.08", "email": "rain8477@gmail.com" },
+  "metadata": {
+    "description": "스폰지클럽 Claude Code 스킬 모음",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "spongebot",
+      "description": "폰 텔레그램으로 자기 PC의 Claude Code를 조작하게 끝까지 연결하고, 설정 완료가 확인되면 바탕화면에 스폰지(또는 원하는) 아이콘 버튼을 자동 생성하는 대화형 설치 도우미.",
+      "source": "./plugins/spongebot"
+    }
+  ]
+}
