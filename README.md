@@ -5,19 +5,30 @@
 
 ## 설치법 (초보자용 — 둘 중 하나)
 
-### 🟢 방법 A. 가장 쉬움 — 터미널에 한 줄 붙여넣기
-터미널(맥: 응용프로그램 > 유틸리티 > 터미널)을 열고 아래 한 줄을 붙여넣고 엔터:
+### 🟢 방법 A (추천). 더블클릭 한 번 — 나머지는 자동
+1. 이 레포에서 **`스폰지봇-설치.command`** 파일을 내려받기
+   (파일 클릭 → 우측 **Download raw file** 버튼)
+2. 받은 파일 **더블클릭** (첫 실행 보안경고 시 우클릭 → 열기 → 열기)
+3. 설치 후 **Claude Code 가 열리며 안내가 자동 시작**돼요 — 화면 질문에 답만 하면 끝.
+   (`/spongebot-setup` 을 따로 칠 필요 없어요.)
+
+### 🟢 방법 B. 터미널에 명령 — **한 줄씩 따로** 입력
+> ⚠️ 아래를 `&&` 로 한 줄에 잇지 마세요. 붙여넣을 때 줄이 깨질 수 있어요. **한 줄씩** 입력.
+
+터미널(맥: 응용프로그램 > 유틸리티 > 터미널)을 열고 순서대로:
 ```
-claude plugin marketplace add may070822/spongeclub-skills && claude plugin install spongebot@spongeclub-skills && echo "✅ 설치완료! Claude Code에서 /spongebot-setup 입력하세요"
+claude plugin marketplace add may070822/spongeclub-skills
 ```
-그다음 Claude Code 를 열고 한 번만 입력:
+```
+claude plugin install spongebot@spongeclub-skills
+```
+```
+claude
+```
+그러면 Claude Code 가 열려요. **거기 입력창에**(터미널 아님!):
 ```
 /spongebot-setup
 ```
-
-### 🟢 방법 B. 더블클릭 설치
-이 레포의 **`스폰지봇-설치.command`** 파일을 내려받아 더블클릭 → 설치 후 Claude Code가 열려요.
-거기서 `/spongebot-setup` 한 번만 입력. (첫 실행 시 보안경고가 뜨면 우클릭 → 열기 → 열기.)
 
 > 그 뒤는 스킬이 봇 만들기·연결·**바탕화면 버튼 생성**까지 한 단계씩 안내해요.
 
