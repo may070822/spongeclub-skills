@@ -3,22 +3,23 @@
 폰 텔레그램으로 내 PC의 Claude Code를 조작하게 끝까지 연결하고,
 **설정이 완료되면 바탕화면에 아이콘 버튼을 자동 생성**하는 대화형 설치 도우미.
 
-## 멤버 설치법 (Claude Code 입력창에 한 줄씩)
+## 설치법 (초보자용 — 둘 중 하나)
 
+### 🟢 방법 A. 가장 쉬움 — 터미널에 한 줄 붙여넣기
+터미널(맥: 응용프로그램 > 유틸리티 > 터미널)을 열고 아래 한 줄을 붙여넣고 엔터:
 ```
-/plugin marketplace add <github-아이디>/spongeclub-skills
+claude plugin marketplace add may070822/spongeclub-skills && claude plugin install spongebot@spongeclub-skills && echo "✅ 설치완료! Claude Code에서 /spongebot-setup 입력하세요"
 ```
-```
-/plugin install spongebot@spongeclub-skills
-```
-```
-/reload-plugins
-```
-
-그다음 실행:
+그다음 Claude Code 를 열고 한 번만 입력:
 ```
 /spongebot-setup
 ```
+
+### 🟢 방법 B. 더블클릭 설치
+이 레포의 **`스폰지봇-설치.command`** 파일을 내려받아 더블클릭 → 설치 후 Claude Code가 열려요.
+거기서 `/spongebot-setup` 한 번만 입력. (첫 실행 시 보안경고가 뜨면 우클릭 → 열기 → 열기.)
+
+> 그 뒤는 스킬이 봇 만들기·연결·**바탕화면 버튼 생성**까지 한 단계씩 안내해요.
 
 ## 무엇을 해주나
 1. 지금 어디까지 됐는지 진단 → **덜 됐으면 그 단계부터 이어서** 안내, **다 됐으면 바로 버튼만** 생성
